@@ -172,7 +172,15 @@
 						</i>
 				  </a>
 			  </div>
-              <div class="title">Awesome App</div>
+              
+			  <div class="title">Awesome App</div>
+			  
+			  <div class="right">
+				<a href="#" class="link popover-open" data-popover=".popup-menu">
+					<i class="material-icons">more_vert</i>
+				</a>
+			  </div>
+				
             </div>
           </nav>
 		  
@@ -217,15 +225,148 @@
 				  <a href="/tabs/" class="link">Tabs</a>
 				  
 				</div>
+			  	<div class="block">
+				  
+				  <a href="/accordions/" class="link">Accordions</a>
+				  
+				</div>
+			  	
+			  	<div class="block">
+				  
+				  <a href="#" class="link open-welcome">Notification</a>
+				  
+				</div>
+			  	
+			  	<div class="block">
+				  
+				  <a href="#" class="link popover-open" data-popover=".popup-info">Popover</a>
+				  
+				</div>
+			  
+			  
+			  	<div class="block">
+				  
+				  <a href="#" class="link login-screen-open" data-login-screen=".login-screen">Registro</a>
+				  
+				</div>
+			  	
+			  	<div class="block">
+				  
+				  <a href="/modal/" class="link">Modal Open</a>
+				  
+				</div>
+			  	
+			  	<div class="popover popup-info">
+					<div class="popover-inner">
+						<div class="block">
+							Información que solamente se mostrará en una ventana tipo Popup.
+						</div>						
+					</div>
+				</div>
+			  	
+			  
+			  	<div class="popover popup-menu">
+					<div class="popover-inner">
+						<div class="list links-list">
+							<ul>
+								<li>
+									<a href="/listas/" class="link popover-close">Listas</a>
+								</li>
+								<li>
+									<a href="/accordions/" class="link popover-close">Accordions</a>
+								</li>
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+			  
+			 
+			<div class="fab fab-right-bottom">
+			  <a href="#">
+				<!-- First icon is visible when Speed Dial actions are closed -->
+				<i class="icon f7-icons">add</i>
+				<!-- Second icon is visible when Speed Dial actions are opened -->
+				<i class="icon f7-icons">close</i>
+			  </a>
+			  <!-- Speed Dial action buttons -->
+			  <div class="fab-buttons fab-buttons-top">
+				<a href="/listas/">Listas</a>
+				<a href="/cards/">Cards</a>
+				<a href="/accordions/" class="fab-label-button">
+					<i class="material-icons">list</i>
+					<span class="fab-label">Accordions</span>
+				</a>
+				  
+			  </div>
+			</div>
 			  
 			  
           </div>
 			
         </section>
+		  
+		  
       </div>
     </section>
 	
 	
+	
+<section class="login-screen modal-in">
+
+  <div class="view">
+    <div class="page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <div class="login-screen-title">Registro</div>
+        <!-- Login form -->
+        <form>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Username</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username" placeholder="Username">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" placeholder="Password">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+                <a href="#" class="item-link list-button">Registrar</a>
+              </li>
+            </ul>
+            <div class="block-footer">
+				<a href="#" class="link login-screen-close button button-fill">
+					Cancelar
+				</a>
+				
+				<a href="#" class="link login-screen-open" data-login-screen=".modal-page">Registro</a>
+				<br>
+				<a href="/modal/" class="link login-screen-close">Modal Open</a>
+			</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+	
+
+
 	
 	<script src="js/framework7.min.js"></script>
 	<script src="js/my-app.js"></script>

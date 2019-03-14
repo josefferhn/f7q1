@@ -19,13 +19,32 @@
 						menu
 						</i>
 				  </a>
-			  </div>
+				<a class="link searchbar-enable" data-searchbar=".searchbar">
+					<i class="material-icons">search</i>
+				</a>
+			</div>
+			<form class="searchbar searchbar-expandable searchbar-init" data-search-container=".list" data-search-in="a">
+				<div class="searchbar-inner">
+				  <div class="searchbar-input-wrap">
+					<input type="search" placeholder="Search"/>
+					<i class="searchbar-icon"></i>
+					<span class="input-clear-button"></span>
+				  </div>
+				  <span class="searchbar-disable-button">Cancel</span>
+				</div>
+			</form>
 			
 		</div>
 	</nav>
 	
 	
 	<article class="page-content">
+		
+		<div class="searchbar-not-found">
+			<div class="block block-padding">
+				Elementos no encontrados con sus criterios de búsqueda
+			</div>
+		</div>
 		
 		<h2 class="block-title">Simple</h2>
 		<div class="list simple-list">	
